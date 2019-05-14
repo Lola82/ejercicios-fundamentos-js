@@ -5,7 +5,16 @@
 
 
 // Aquí tu código
-
+var obj = {
+    str: 'object',
+    a:{
+        b:true,
+        c:["noNumber", 5],
+    },
+    d:6,
+    f:'palo',
+    
+};
 // Hasta aquí
 
 // TEST 1
