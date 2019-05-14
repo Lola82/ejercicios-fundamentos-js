@@ -32,4 +32,7 @@ let gente = [{
         edad: 10
     },
 ]
-
+var nuevoArray = gente.filter(function (persona) {
+    return persona.nombre.length === 4;
+})
+console.log(nuevoArray);
