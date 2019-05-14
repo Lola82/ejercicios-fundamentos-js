@@ -33,9 +33,12 @@ let gente = [{
         edad: 10
     },
 ]
+var nuevoArray=[];
 for (var persona of gente){
     if (persona.edad>25){
-        console.log(persona);
+        nuevoArray.push(persona);
+      
     }
 }
+console.log(nuevoArray);
 
