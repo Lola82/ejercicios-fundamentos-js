@@ -10,7 +10,15 @@
 
 let ultimoCaracter = (texto) => {
     // Aquí tu código.  Desde aquí:
-  
+    if(typeof texto==='string' && texto.length>0){
+        return texto[texto.length-1]//muestra la ultima letra del string
+    }
+    else if(texto === ''){
+        return 'Debo ser ejecutada con un string no vacío'
+    }
+    else{
+        return 'Debo ser ejecutada con un string'
+    }
 
 
     // Hasta aquí.
