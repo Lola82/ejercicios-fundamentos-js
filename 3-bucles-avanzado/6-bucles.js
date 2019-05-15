@@ -15,10 +15,12 @@ for (let i = 0; i < giveMeIntegerRandom(10); i++) {
 }
 console.log('El array original es:  arr =', arr);
 // Aquí tu código
-
-
-
-
+let dobleArr=[];
+for(valor of arr){
+    dobleArr.push(2*valor);// el push guarda en dobleArr cada valor multiplicado
+}
+//CON MAP
+// let dobleArr=arr.map(valor=>valor*2);
 // Hasta aquí
 console.log('El array nuevo es:  doubleArr =', dobleArr);
 // TEST 1
