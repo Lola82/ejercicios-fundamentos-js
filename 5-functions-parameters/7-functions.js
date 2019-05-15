@@ -7,7 +7,11 @@
 //  convierteEurosEnPesetas(1) === 168 // true
 
 // Aquí tu código
-
+let convierteEurosEnPesetas = (numero) => {
+   if(typeof numero === 'number'){
+      return numero*168;
+   } 
+}
 
 // Hasta aquí
 
