@@ -9,8 +9,12 @@
 //  throw new Error('muestraPorConsolaEurosEnPesetas debe recibir un number');
 
 // Aquí tu código
-
-
+let muestraPorConsolaEurosEnPesetas = (euros) =>{
+    if(typeof euros !== 'number'){
+        throw new Error('muestraPorConsolaEurosEnPesetas debe recibir un number');
+    }
+    console.log(euros*166);
+}
 // Hasta aquí
 
 
@@ -40,3 +44,7 @@ try {
     console.log('apruebas');
         
 }
+function newFunction(numero) {
+    console.log(numero);
+}
+
